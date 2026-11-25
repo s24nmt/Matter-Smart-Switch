@@ -15,5 +15,6 @@ Per-Button LED Pairs: Eight NEO_GRB / 800 kHz NeoPixel LEDs on D2 (GPIO 2) are g
 Action & Standby States: When connected, each button pair flashes its assigned short-press color (Cyan, Emerald Green, Warm Amber, or Violet) for 400 ms, or bright white (255, 255, 255) for 550 ms on a long press, returning to a dim standby glow (8, 8, 8).
 Commissioning & Connection Chase: Before commissioning, a yellow chase animation (255, 160, 0) runs every 120 ms; after commissioning but before full connection, a blue chase animation (0, 80, 255) runs every 120 ms without overlapping normal button LED updates.
 
-# In the Alexa app, go to Devices -> tap + -> Add Device -> select Matter (or Other -> Matter) -> tap Yes -> Try Numeric Code -> enter the 11-digit code from the Serial Monitor.
+# In the Alexa app,
+go to Devices -> tap + -> Add Device -> select Matter (or Other -> Matter) -> tap Yes -> Try Numeric Code -> enter the 11-digit code from the Serial Monitor.
 Verification: The NeoPixel animation changes from yellow to blue, then settles into the dim white standby glow once connected, and Alexa discovers 8 switch endpoints.
