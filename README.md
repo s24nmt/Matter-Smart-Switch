@@ -1,4 +1,4 @@
-# Matter-Smart-Button
+# Matter-Smart-Switch
 # Compatibility
 Amazon Echo (4th Gen): Fully supports Matter Generic Switch, Other Smart Home Ecosystems: Because Matter supports Multi-Admin, you can pair the ESP32-C6 with Alexa first and then share it with Google Home, Apple Home, or Home Assistant simultaneously.
 
